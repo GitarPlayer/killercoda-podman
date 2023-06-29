@@ -9,6 +9,26 @@
       {
         "title": "Let's update our package manager repository",
         "text": "step1.md"
+      },
+      {
+        "title": "Load the httpd container image",
+        "text": "step2.md"
+      },
+      {
+        "title": "Create a running pod with port forwarding",
+        "text": "step3.md"
+      },
+      {
+        "title": "Execute a command inside the pod",
+        "text": "step4.md"
+      },
+      {
+        "title": "Set the restart policy",
+        "text": "step5.md"
+      },
+      {
+        "title": "Kill the container and observe the restart",
+        "text": "step6.md"
       }
     ],
     "finish": {
