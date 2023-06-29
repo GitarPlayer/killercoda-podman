@@ -12,6 +12,6 @@ Here's a quick summary of what we'll be doing:
 
 5. **Set a Restart Policy**: We will set a restart policy for our container to ensure that it restarts automatically if it stops.
 
-6. **Test the Restart Policy**: We will test the restart policy by manually stopping the container and observing that it restarts automatically.
+6. **Test the Restart Policy**: We will test the restart policy by manually killing the container process and see that it comes up again.
 
 By the end of this scenario, you will have a good understanding of how to manage images and containers with Podman, and how to configure and interact with a running container.

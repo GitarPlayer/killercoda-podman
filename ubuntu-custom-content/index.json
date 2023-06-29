@@ -1,17 +1,17 @@
 {
   "title": "Podman Container lifecycle",
-  "description": "Write custom markdown for all phases",
+  "description": "Image and Container lifecycle",
   "details": {
     "intro": {
       "text": "intro.md"
     },
     "steps": [
       {
-        "title": "Let's update our package manager repository",
+        "title": "Pull an image and save it to a tar file",
         "text": "step1.md"
       },
       {
-        "title": "Load the httpd container image",
+        "title": "Load the httpd container image from a tar file",
         "text": "step2.md"
       },
       {
