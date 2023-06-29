@@ -1,6 +1,6 @@
 {
   "title": "Podman Container lifecycle",
-  "description": "Image and Container lifecycle",
+  "description": "Image and Container lifecycle with Podman",
   "details": {
     "intro": {
       "text": "intro.md"
@@ -8,27 +8,33 @@
     "steps": [
       {
         "title": "Pull an image and save it to a tar file",
-        "text": "step1.md"
+        "text": "step1.md",
+        "verify": "verify1.sh"
       },
       {
-        "title": "Load the httpd container image from a tar file",
-        "text": "step2.md"
+        "title": "Load the httpd container image",
+        "text": "step2.md",
+        "verify": "verify2.sh"
       },
       {
         "title": "Create a running pod with port forwarding",
-        "text": "step3.md"
+        "text": "step3.md",
+        "verify": "verify3.sh"
       },
       {
         "title": "Execute a command inside the pod",
-        "text": "step4.md"
+        "text": "step4.md",
+        "verify": "verify4.sh"
       },
       {
         "title": "Set the restart policy",
-        "text": "step5.md"
+        "text": "step5.md",
+        "verify": "verify5.sh"
       },
       {
         "title": "Kill the container and observe the restart",
-        "text": "step6.md"
+        "text": "step6.md",
+        "verify": "verify6.sh"
       }
     ],
     "finish": {
