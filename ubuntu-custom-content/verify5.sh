@@ -1,2 +1,2 @@
 #!/bin/bash
-podman inspect mypod | grep -q '"RestartPolicy": "always"'
+ podman inspect --format '{{.HostConfig.RestartPolicy.Name}}' mypod | grep -q always
