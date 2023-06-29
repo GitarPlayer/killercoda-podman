@@ -5,4 +5,5 @@ First, we need to stop and remove the current container:
 ```bash
 podman stop mypod
 podman rm mypod
-podman run -d -p 8080:80 --name mypod --restart=always httpd
+podman run -d -p 8080:80 \
+    --name mypod --restart=always httpd
