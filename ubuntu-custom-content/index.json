@@ -14,8 +14,7 @@
       {
         "title": "Load the httpd container image",
         "text": "step2.md",
-        "verify": "verify2.sh",
-        "background": "background2.sh"
+        "verify": "verify2.sh"
       },
       {
         "title": "Create a running pod with port forwarding",

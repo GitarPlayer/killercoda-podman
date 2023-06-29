@@ -8,3 +8,4 @@ Run the following commands:
 ```bash
 podman pkill httpd
 podman ps
+```

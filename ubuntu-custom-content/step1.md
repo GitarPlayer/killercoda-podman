@@ -6,3 +6,4 @@ Run the following commands:
 podman pull docker.io/library/httpd:latest
 podman save -o /tmp/httpd.tar docker.io/library/httpd:latest
 podman rmi docker.io/library/httpd:latest
+```
