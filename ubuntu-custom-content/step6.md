@@ -3,6 +3,6 @@ Finally, let's test the restart policy by killing the container and observing it
 Run the following commands:
 
 ```bash
-podman pkill httpd
+pkill httpd
 podman ps
 ```
